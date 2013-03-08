@@ -1,8 +1,8 @@
-Try to scroll the tableView and then click on a row.
+Tries to scroll the tableView and then clicks on a row.
 Works on iOS6.0 simulator, not on iOS5.0 simulator.
 iOS6.0 doesn't require -/+10 trick to scroll, but iOS5.0 won't scroll without it.
 
-Even if iOS5.0 manages to scroll the view, nothing can be clicked afterwards
+Even if iOS5.0 manages to scroll the view, nothing can be clicked afterwards.
 
 ```ruby
 frame = view('tableView').frame
